@@ -19,10 +19,16 @@ header, menu-list {
         width: 5em;
     }
     /* menu */
-
+menu {
+    margin-left: auto;
+    align-self: center;
+}
     /* menu-list */
     .menu-list {
         list-style: none;
+    }
+    .menu-list li {
+        padding: 0 5px;
     }
 .menu-list {
     list-style: none;
