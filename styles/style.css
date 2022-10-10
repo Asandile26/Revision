@@ -4,13 +4,30 @@ header{
     padding: 0%;
     box-sizing: border-box;
 }
-   /* display: inline-flex */
+ /*header, main, footer */
+ headr, main, footer {
+    min-width: 100%;
+ }
+ header footer {
+    background-color: darkgray;
+ }
+/* display: inline-flex */
 header, menu-list {
     display: inline-flex;
 }
     header img {
         width: 5em;
     }
+    /* menu */
+
+    /* menu-list */
+    .menu-list {
+        list-style: none;
+    }
+.menu-list {
+    list-style: none;
+}
+
 table {
     border: 3px solid black; 
     border-collapse: collapse;
