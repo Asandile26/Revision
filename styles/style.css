@@ -5,19 +5,27 @@ header{
     box-sizing: border-box;
 }
  /*header, main, footer */
- headr, main, footer {
+ header, main, footer {
     min-width: 100%;
  }
  header footer {
     background-color: darkgray;
  }
 /* display: inline-flex */
-header, menu-list {
+header, .menu-list {
     display: inline-flex;
 }
     header img {
         width: 5em;
-    }
+}
+header {
+    display: inline-flex;
+    justify-content: space-between;
+    color: whitesmoke;
+    height: 4em;
+    align-items: center;
+    padding: 0 20px;
+}
     /* menu */
 menu {
     margin-left: auto;
