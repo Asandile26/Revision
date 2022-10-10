@@ -1,3 +1,27 @@
+/* select all elements */
+header{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+   /* display: inline-flex */
+header, menu-list {
+    display: inline-flex;
+}
+    header img {
+        width: 5em;
+    }
 table {
     border: 3px solid black; 
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid green;
+    text-align: center;
+}
+
+
+/* footer */
+footer p {
+    font-weight: bold;
 }
